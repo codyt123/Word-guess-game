@@ -1,0 +1,30 @@
+.jumbotron {
+    background-image: url(../images/gallows.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 400px;
+    width:80%;
+    margin-left:10%;
+
+}
+body {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+h1 {
+    transform: rotate(-30deg);
+    margin-top:80px;
+    margin-left: 40px;
+    color: firebrick;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Rye';
+}
+.col-md-6 {
+    border: 2px solid darkolivegreen;
+    background-color:darkgray;
+    text-align:center;
+    font-family: 'Nosifer';
+    font-size: 22px;
+}
