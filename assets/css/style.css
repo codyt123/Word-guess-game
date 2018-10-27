@@ -1,8 +1,5 @@
 .jumbotron {
-    background-image: url(../images/gallows.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
+    background: gold;
     height: 400px;
     width:80%;
     margin-left:10%;
@@ -13,18 +10,16 @@ body {
     background-size: cover;
 }
 h1 {
-    transform: rotate(-30deg);
-    margin-top:80px;
-    margin-left: 40px;
-    color: firebrick;
+    
+    color: lightslategray;
     font-size: 50px;
     font-weight: bold;
-    font-family: 'Rye';
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .col-md-6 {
-    border: 2px solid darkolivegreen;
-    background-color:darkgray;
+    border: 2px solid darkslateblue;
+    background-color:lightslategray;
     text-align:center;
-    font-family: 'Nosifer';
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 22px;
 }

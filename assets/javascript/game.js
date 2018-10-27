@@ -1,18 +1,16 @@
 var words = {
-    word1:"buzzards",
-    word2:"cows",
-    word3: "dude",
-    word4: "outlaw",
-    word5: "sawbuck",
-    word6: "wrangler",};
+    word1:"moonshine",
+    word2:"prohibition",
+    word3: "whiskey",
+    word4: "speakeasy",
+    word5: "capone",
+    word6: "chicago",};
 
 
-//randomly pulls a word for the game
 function randomizer () {
     return Object.values(words)[Math.floor((Math.random() * Object.values(words).length))];
 };
 
-//variables used after randomizer
 var thisGameWord = randomizer ();
 var length = thisGameWord.length;
 var blank = "_";
